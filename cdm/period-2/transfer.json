@@ -1,0 +1,15 @@
+{
+  "_note": "Illustrative, simplified CDM-shaped Transfer instruction produced by the Paying Agent for period 2. Its keccak256 (of these exact file bytes) is the transferHash recorded on-chain.",
+  "eventType": "Transfer",
+  "asset": { "identifier": "XS1234567890", "identifierType": "ISIN" },
+  "period": 2,
+  "settlementDate": "2027-11-01",
+  "payer": "LEI:5493001KJTIIGC8Y1R12",
+  "basedOnReset": "cdm/period-2/reset.json",
+  "transfers": [
+    { "receiver": "holder 1", "units": 100, "amount": 2600.00, "currency": "USD" },
+    { "receiver": "holder 2", "units": 250, "amount": 6500.00, "currency": "USD" },
+    { "receiver": "holder 3", "units": 650, "amount": 16900.00, "currency": "USD" }
+  ],
+  "total": { "amount": 26000.00, "currency": "USD" }
+}

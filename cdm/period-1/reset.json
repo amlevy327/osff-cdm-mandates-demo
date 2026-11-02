@@ -1,0 +1,14 @@
+{
+  "_note": "Illustrative, simplified CDM-shaped Reset produced by the Calculation Agent for period 1. Its keccak256 (of these exact file bytes) is the resetHash recorded on-chain.",
+  "eventType": "Reset",
+  "asset": { "identifier": "XS1234567890", "identifierType": "ISIN" },
+  "period": 1,
+  "resetHistory": {
+    "resetDate": "2027-04-29",
+    "resetValue": { "value": 0.052, "unit": "Rate", "priceType": "InterestRate" },
+    "observations": [{ "source": "Demo rate index", "observationDate": "2027-04-29", "value": 0.052 }]
+  },
+  "calculationPeriod": { "startDate": "2026-11-01", "endDate": "2027-05-01", "dayCountFraction": "30/360" },
+  "couponPerDenomination": { "amount": 26.00, "currency": "USD", "denomination": 1000 },
+  "calculationAgent": "LEI:5493001KJTIIGC8Y1R02"
+}

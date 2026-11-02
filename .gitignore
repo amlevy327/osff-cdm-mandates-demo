@@ -1,0 +1,9 @@
+.env
+out/
+cache/
+lib/
+.anvil.pid
+deployments/dry-run.json
+broadcast/*/31337/
+*.recovery.lock
+.DS_Store

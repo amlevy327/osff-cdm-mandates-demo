@@ -1,0 +1,16 @@
+{
+  "acceptanceResolver": "0x62569549B4e7F709352cf64C25BB7BAE01a34cd8",
+  "acceptanceSchema": "0xa4edc98bfafa6102b2da4d823ad495feaad99c73b85cc6ab7efa596ace1db6d8",
+  "calcAgent": "0x7998109bdeDb6405037D5C125ae90579D5748d50",
+  "chainId": 11155111,
+  "couponServicer": "0x133A750E80bB0887B98a7f172d0f7a00B034b5EF",
+  "eas": "0xC2679fBD37d54388Ce493F1DB75320D236e1815e",
+  "easMandateVerifier": "0x11db54Eb3c749f2281BEbf9047e41a727B035aAf",
+  "issuer": "0x394D1d25DcC8d314380411c3b41a68449E011187",
+  "mandateResolver": "0xEd1B74b0c9f4D52a9656B82908393307BaAf7c88",
+  "mandateSchema": "0x47091bc35add7685166070f22e619797466913a3443fcc7497b1ffdafc3db7ee",
+  "mockUSDC": "0xeF4D4fc513c1F80ccCAD5C3863535dB32a4e0C8B",
+  "payingAgent": "0x2d1706fBEcec011aB922F560aCDcCc661aBD0964",
+  "registrar": "0x03f43686B9cA6A85a0Ce49F0823d8B1CAB4dc62B",
+  "schemaRegistry": "0x0a7E2Ff54e76B8E6659aedc9103FB21c038050D0"
+}

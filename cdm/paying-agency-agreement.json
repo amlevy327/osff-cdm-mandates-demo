@@ -1,0 +1,23 @@
+{
+  "_note": "Illustrative, simplified CDM-shaped LegalAgreement for the demo bond. Not a complete or validated CDM object. Its keccak256 (of these exact file bytes) is the agreementHash in every mandate.",
+  "legalAgreementIdentification": {
+    "agreementName": {
+      "agreementType": "Other",
+      "otherAgreement": "Paying Agency Agreement"
+    },
+    "publisher": "Issuer"
+  },
+  "agreementDate": "2026-10-15",
+  "effectiveDate": "2026-11-01",
+  "agreementTerminationDate": "2027-11-01",
+  "contractualParty": [
+    { "partyId": [{ "identifier": "LEI:5493001KJTIIGC8Y1R00", "identifierType": "LEI" }], "name": "Demo Issuer" },
+    { "partyId": [{ "identifier": "LEI:5493001KJTIIGC8Y1R12", "identifierType": "LEI" }], "name": "Demo Paying Agent" }
+  ],
+  "relatedAsset": { "identifier": "XS1234567890", "identifierType": "ISIN" },
+  "partyRoles": [
+    { "role": "Registrar", "partyLEI": "LEI:5493001KJTIIGC8Y1R01" },
+    { "role": "CalculationAgent", "partyLEI": "LEI:5493001KJTIIGC8Y1R02" },
+    { "role": "PayingAgent", "partyLEI": "LEI:5493001KJTIIGC8Y1R12" }
+  ]
+}
